@@ -20,7 +20,10 @@ insert into FlujoProceso values('F1','P1','P2','I','Inicio','Frente');
 insert into FlujoProceso values('F1','P2','P3','P','Documentos','Frente');
 insert into FlujoProceso values('F1','P3','P4','P','Recepcionar','Comite');
 insert into FlujoProceso values('F1','P5','P6','P','Confirmar','Comite');
-insert into FlujoProceso values('F1','P5',null,'F','Notificacion','Comite');
+insert into FlujoProceso values('F1','P5','P6','P','Notificacion','Comite');
+
+insert into FlujoProceso values('F1','P6','P7','P','Mostrar','Comite');
+insert into FlujoProceso values('F1','P7',null,'F','Votar','Comite');
 
 
 create table FlujoProcesoSeguimiento
